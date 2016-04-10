@@ -91,16 +91,18 @@
 		$(document).click(function (e) {
 	    var container = $("#fh5co-offcanvass, .js-fh5co-mobile-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
+	    	console.log("coucou");
 	    	$('html').removeClass('mobile-menu-expanded');
 	    	$('.js-fh5co-mobile-toggle').removeClass('active');
 	    }
+
 		});
 	};
 
 	// Burger Menu
 	var burgerMenu = function() {
-
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
+			console.log("burgerMenu");
 			if ( $('#navbar').is(':visible') ) {
 				$(this).removeClass('active');	
 			} else {
@@ -113,7 +115,6 @@
 
 	// Off Canvass
 	var offCanvass = function() {
-
 		if ( $('#fh5co-offcanvass').length == 0 ) {
 			if ( $('.fh5co-nav-style-1').length > 0 ) {
 				$('body').prepend('<div id="fh5co-offcanvass" />');
@@ -139,6 +140,7 @@
 		}
 
 		$('body').on('click', '.js-fh5co-mobile-toggle', function(e){
+			console.log("Bouton du menu");
 			var $this = $(this);
 			$this.toggleClass('active');
 			$('html').toggleClass('mobile-menu-expanded');
@@ -183,7 +185,6 @@
 		var lastScrollTop = 0;
 
 		$(window).scroll(function(event){
-
 		   	var header = $('#fh5co-header'),
 				scrlTop = $(this).scrollTop();
 

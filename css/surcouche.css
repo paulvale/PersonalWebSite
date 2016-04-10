@@ -1,7 +1,7 @@
 /* Home */ 
 
 .cover {
-	background-image : url(../images/cover3.jpg) !important; 
+	background-image : url(../images/cover1.jpeg) !important; 
 	   /* custom background-position */
     background-position:50% 50% !important;
     /* ie8- graceful degradation */
@@ -17,7 +17,7 @@
 .classProfile {
 	display: block;
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 25%;
 }
 
 .classProfile2 {
