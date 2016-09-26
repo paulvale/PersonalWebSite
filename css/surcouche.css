@@ -12,8 +12,6 @@
 	background-color: black;
 }
 
-
-
 .classProfile {
 	display: block;
 	text-align: center;
@@ -171,13 +169,34 @@ hr.small {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.experienceThumb .col-md-4 img {
+.experienceThumb .col-md-5 img {
   width: 100%;
 }
 
-.experienceThumb .col-md-8 h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
+.experienceThumb .col-md-5 img.imgPadding {
+  padding-top: 50px;
 }
+
+.experienceThumb .col-md-7 h1, h3, h4, h5, h6 {
+  margin: 0px;
+  color: rgb(238, 180,60);
+  text-shadow: 1px 1px #808080;
+}
+
+.experienceThumb .col-md-7 ul{
+  text-align: left;
+  margin-left: 10%;
+  color: #505050;
+}
+
+.experienceThumb .col-md-7 .description {
+  color: #505050;
+  text-align: left;
+  margin: 0;
+  margin-left: 10%;
+}
+
+
 
 
 /* Project */
