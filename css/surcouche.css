@@ -48,34 +48,29 @@
 	border-radius: 50%;
 	border: 4px solid white;
 	max-width: 40%;
-    height: auto;
+  height: auto;
+}
+
+.myCapacities, .myCapacitiesData {
+  height: 110px;
 }
 
 .myCapacities {
-	height: 44px;
+  padding-top: 45px;
 }
 
-@media (min-width: 1200px) {
-	.myCapacities {
-		height: 70px;
-	}
-
-	.myCapacities i {
-		font-size: 4em !important;
-	}
+.myCapacities i {
+  font-size: 4em !important;
 }
 
-.myCapacities img {
-	height : 100%;
+.myCapacitiesData i {
+  font-size: 7em !important;
 }
-
-
 
 a.labelProject:hover {
 	background: none !important;
 	border: 1px solid #f2f2f2 !important;
 }
-
 
 .myButton {
 	background-color: #45c46f;
@@ -169,6 +164,19 @@ hr.small {
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
+}
+
+/* Experience Section */
+.experienceThumb {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.experienceThumb .col-md-4 img {
+  width: 100%;
+}
+
+.experienceThumb .col-md-8 h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
 }
 
 
