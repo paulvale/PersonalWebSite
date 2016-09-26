@@ -177,7 +177,7 @@ hr.small {
   padding-top: 50px;
 }
 
-.experienceThumb .col-md-7 h1, h3, h4, h5, h6 {
+.experienceThumbTitle {
   margin: 0px;
   color: rgb(238, 180,60);
   text-shadow: 1px 1px #808080;
@@ -196,8 +196,20 @@ hr.small {
   margin-left: 10%;
 }
 
+@media only screen and (max-width: 768px) {
+  .experienceThumb .col-md-7 ul{
+    text-align: left;
+    margin-left: 0%;
+    color: #505050;
+  }
 
-
+.experienceThumb .col-md-7 .description {
+    color: #505050;
+    text-align: left;
+    margin: 0;
+    margin-left: 0%;
+  }
+}
 
 /* Project */
 .iconBtn {
